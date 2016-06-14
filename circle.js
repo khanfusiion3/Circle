@@ -1,5 +1,6 @@
 class Circle extends Shape {
   constructor(r) {
+    super();
     this.radius = r;
   }
   clone() {
